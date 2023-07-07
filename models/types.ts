@@ -28,7 +28,7 @@ export namespace Models {
     content: string;
     authorId: string;
     createdAt: Date;
-    updateAt: Date;
+    updatedAt: Date;
     tags: string[];
     images: string[];
     category: string;
