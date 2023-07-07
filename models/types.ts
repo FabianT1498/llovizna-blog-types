@@ -30,8 +30,8 @@ export namespace Models {
     createdAt: Date;
     updatedAt: Date;
     tags: string[];
-    images: string[];
+    images?: string[];
     category: string;
-    featuredImage: string;
+    featuredImage?: string;
   }
 }
