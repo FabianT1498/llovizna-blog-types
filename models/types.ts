@@ -29,7 +29,7 @@ export namespace Models {
     authorId: string;
     createdAt: Date;
     updatedAt: Date;
-    tags: string[];
+    tags?: string[];
     images?: string[];
     category: string;
     featuredImage?: string;
