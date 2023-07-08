@@ -6,11 +6,8 @@ export namespace Models {
     email: string;
     password: string;
     picturePath?: string;
-    friends: string[];
-    location: string;
-    occupation: string;
-    viewedProfile?: number;
-    impressions?: number;
+    username: string;
+    role: string;
     token?: string;
   }
 
