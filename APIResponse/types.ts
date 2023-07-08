@@ -4,7 +4,7 @@ export namespace APIResponse {
     data: T | null;
     error: {
       code: number;
-      message: string;
+      message: string | Array<string>;
     } | null;
   }
 }
