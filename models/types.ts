@@ -1,3 +1,5 @@
+import { Types } from "../types/";
+
 export namespace Models {
   export interface User {
     _id?: string;
@@ -7,7 +9,7 @@ export namespace Models {
     password: string;
     picturePath?: string;
     username: string;
-    role: string;
+    role: Types.UserRole;
     token?: string;
   }
 
