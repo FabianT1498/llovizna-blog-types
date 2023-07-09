@@ -1,3 +1,8 @@
 export namespace Types {
-  export type UserRole = "admin" | "superadmin" | "editor" | "eventManager";
+  export enum UserRole {
+    Admin = "admin",
+    Superadmin = "superadmin",
+    Editor = "editor",
+    EventManager = "eventManager",
+  }
 }
