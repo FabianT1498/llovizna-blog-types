@@ -10,6 +10,8 @@ export namespace Models {
     picturePath?: string;
     username: string;
     role: Types.UserRole;
+    createdAt: Date;
+    updatedAt: Date;
     token?: string;
   }
 
