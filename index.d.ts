@@ -1,5 +1,5 @@
-import { Models } from "./models/types";
-import { APIResponse } from "./APIResponse/types";
+import { Models } from "./models";
+import { APIResponse } from "./APIResponse";
 import { Types } from "./types";
 
 export { Models, APIResponse, Types };

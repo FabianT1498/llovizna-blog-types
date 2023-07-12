@@ -1,4 +1,4 @@
-import { Types } from "../types/";
+import { Types } from "../types";
 
 export namespace Models {
   export interface User {
