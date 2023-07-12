@@ -1,3 +1,3 @@
-# Types | Social Media Project
+# Types | Llovizna Blog Project
 
-2023 - fabiant1498# social-media-types
+2023 - fabiant1498# llovizna-blog-types

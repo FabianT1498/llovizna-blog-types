@@ -7,12 +7,7 @@ export interface ServerResponse<T> {
   } | null;
 }
 
-export enum UserRole {
-  Admin = "admin",
-  Superadmin = "superadmin",
-  Editor = "editor",
-  EventManager = "eventManager",
-}
+export type UserRole = "admin" | "superadmin" | "editor" | "eventManager";
 
 export interface User {
   _id?: string;
