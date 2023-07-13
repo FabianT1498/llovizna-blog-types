@@ -18,8 +18,8 @@ export interface User {
   picturePath?: string;
   username: string;
   role: UserRole;
-  createdAt: Date;
-  updatedAt: Date;
+  createdAt?: Date;
+  updatedAt?: Date;
   token?: string;
 }
 
