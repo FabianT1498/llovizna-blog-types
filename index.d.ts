@@ -9,6 +9,8 @@ export interface ServerResponse<T> {
 
 export type UserRole = "admin" | "superadmin" | "editor" | "eventManager";
 
+export type PictureCategory = "profile" | "post" | "ad";
+
 export interface User {
   _id?: string;
   firstName: string;
