@@ -4,6 +4,7 @@ export interface ServerResponse<T> {
   error: {
     code: number;
     message: string | Array<string>;
+    field?: string | Array<string>;
   } | null;
 }
 
