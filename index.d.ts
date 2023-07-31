@@ -1,11 +1,13 @@
+export type ErrorResponse = {
+  code: number;
+  message: string | string[];
+  fields?: Record<string, string | string[]>;
+};
+
 export interface ServerResponse<T> {
   success: boolean;
   data: T | null;
-  error: {
-    code: number;
-    message: string | Array<string>;
-    field?: string | Array<string>;
-  } | null;
+  error: ErrorResponse | null;
 }
 
 export type UserRole = "admin" | "superadmin" | "editor" | "eventManager";
