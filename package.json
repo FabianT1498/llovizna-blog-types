@@ -1,6 +1,6 @@
 {
   "name": "@fabiant1498/llovizna-blog",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "Type declarations for llovizna blog project",
   "types": "index.d.ts",
   "scripts": {
