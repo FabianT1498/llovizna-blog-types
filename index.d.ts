@@ -14,6 +14,8 @@ export type UserRole = "admin" | "superadmin" | "editor" | "eventManager";
 
 export type PictureCategory = "profile" | "post" | "ad";
 
+export type UserStatus = "active" | "inactive";
+
 export interface User {
   _id?: string;
   firstName: string;
@@ -26,6 +28,7 @@ export interface User {
   createdAt?: Date;
   updatedAt?: Date;
   token?: string;
+  status: UserStatus;
 }
 
 export interface Comment {
