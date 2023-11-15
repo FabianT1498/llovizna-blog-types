@@ -1,11 +1,10 @@
 export type ErrorResponse = {
-  code: number;
-  message: string | string[];
-  fields?: Record<string, string | string[]>;
+  message: string;
+  fields?: Record<string, string>;
 };
 
 export interface ServerResponse<T> {
-  success: boolean;
+  code: number;
   data: T | null;
   error: ErrorResponse | null;
 }
